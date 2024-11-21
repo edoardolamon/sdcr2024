@@ -24,4 +24,4 @@ jobs:
         distro: 'humble'
 
     - name: Build the workspace
-      run: ichiro-its/ros2-ws-actions/build@v1.0.0
+      run: ichiro-its/ros2-ws-action/build@v1.0.0
