@@ -19,9 +19,9 @@ jobs:
         path: my_examples
 
     - name: Set up ROS2 workspace
-      uses: ichiro-its/ros2-actions/setup@v1.0.0
+      uses: ichiro-its/ros2-ws-action/setup@v1.0.0
       with:
         distro: 'humble'
 
     - name: Build the workspace
-      run: ichiro-its/ros2-actions/build@v1.0.0
+      run: ichiro-its/ros2-ws-actions/build@v1.0.0
